@@ -1,0 +1,31 @@
+Saturn_Power_Project/
+│
+├── data/
+│   ├── raw/
+│   │   ├── saturn_power_data.csv
+│   │   └── additional_raw_data.csv
+│   ├── processed/
+│   │   ├── cleaned_data.csv
+│   │   └── summary_statistics.csv
+│   └── external/
+│       ├── external_dataset_1.csv
+│       └── external_dataset_2.csv
+│
+├── notebooks/
+│   ├── Saturn_Power.ipynb
+│   └── exploratory_analysis.ipynb
+│
+├── scripts/
+│   ├── data_preprocessing.py
+│   ├── data_visualization.py
+│   └── model_training.py
+│
+├── results/
+│   ├── figures/
+│   │   ├── power_consumption_trends.png
+│   │   └── comparison_chart.png
+│   └── reports/
+│       ├── final_report.pdf
+│       └── presentation.pptx
+│
+└── requirements.txt

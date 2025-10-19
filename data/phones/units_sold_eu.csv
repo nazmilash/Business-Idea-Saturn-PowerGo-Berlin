@@ -1,0 +1,40 @@
+/SaturnPowerProject
+│
+├── /data
+│   ├── /raw
+│   │   ├── dataset1.csv
+│   │   ├── dataset2.csv
+│   │   └── ...
+│   ├── /processed
+│   │   ├── processed_dataset1.csv
+│   │   ├── processed_dataset2.csv
+│   │   └── ...
+│   └── /external
+│       ├── external_data1.csv
+│       └── ...
+│
+├── /notebooks
+│   ├── Saturn_Power.ipynb
+│   └── other_notebook.ipynb
+│
+├── /scripts
+│   ├── data_preprocessing.py
+│   ├── analysis.py
+│   └── visualization.py
+│
+├── /results
+│   ├── figures
+│   │   ├── figure1.png
+│   │   └── ...
+│   ├── tables
+│   │   ├── summary_table.csv
+│   │   └── ...
+│   └── reports
+│       ├── report1.pdf
+│       └── ...
+│
+├── /requirements
+│   ├── requirements.txt
+│   └── environment.yml
+│
+└── README.md

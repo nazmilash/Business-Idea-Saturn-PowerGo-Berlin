@@ -1,0 +1,30 @@
+/SaturnPowerProject
+│
+├── /data
+│   ├── /raw
+│   │   ├── power_data.csv
+│   │   ├── weather_data.csv
+│   │   └── other_raw_data.csv
+│   ├── /processed
+│   │   ├── cleaned_power_data.csv
+│   │   ├── cleaned_weather_data.csv
+│   │   └── aggregated_data.csv
+│   └── /external
+│       ├── external_api_data.json
+│       └── supplementary_data.xlsx
+│
+├── /notebooks
+│   └── Saturn_Power_Notebook.ipynb
+│
+├── /scripts
+│   ├── data_cleaning.py
+│   ├── data_analysis.py
+│   └── visualization.py
+│
+├── /results
+│   ├── figures
+│   │   ├── power_trends.png
+│   │   └── weather_correlation.png
+│   └── summary_report.pdf
+│
+└── README.md
